@@ -3,7 +3,11 @@ import React from 'react';
 export const Contact = () =>  (
         <div>
             <h2>Contact Us</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis tortor sed libero sollicitudin lacinia quis at massa. In interdum</p>
-            
+            <h3>Phone:</h3>
+            <p>313-675-2860</p>
+            <h3>Email:</h3>
+            <p>datoche-juarez@hawkmail.hfcc.edu</p>
+            <h3>Facebook:</h3>
+            <p>https://www.facebook.com/daniel.atochejuarez/</p>
         </div>
     )
