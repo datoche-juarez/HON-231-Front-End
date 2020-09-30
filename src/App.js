@@ -11,18 +11,18 @@ import { Jumbotron } from './components/Jumbotron';
 function App() {
   return (
     <React.Fragment>
+      <Router>
       <NavigationBar />
       <Jumbotron />
-      <Layout>
-        <Router>
+        <Layout>
           <Switch>
             <Route exact path= "/" component= {Home} />
             <Route path= "/about" component= {About} />
             <Route path= "/contact" component= {Contact} />
             <Route component= {NoMatch} />
           </Switch>
+          </Layout>
         </Router>
-      </Layout>
     </React.Fragment>
   );
 }
