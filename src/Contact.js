@@ -9,8 +9,10 @@ export const Contact = () =>  (
             <h3>Phone:</h3>
             <p>313-675-2860</p>
             <h3>Email:</h3>
+            <a href="mailto: datoche-juarez@hawkmail.hfcc.edu">datoche-juarez@hawkmail.hfcc.edu</a>
             <p>datoche-juarez@hawkmail.hfcc.edu</p>
             <h3>Facebook:</h3>
+            <a href="https://www.facebook.com/daniel.atochejuarez/">Daniel Atoche-Juarez</a>
             <p>https://www.facebook.com/daniel.atochejuarez/</p>
             <p>The Way Forward Project is only as good as its partners. If you believe our current criminal
              justice system is broken and recognize the need to give millions of Americans the opportunity 

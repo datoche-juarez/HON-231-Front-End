@@ -31,8 +31,13 @@ export const Jumbotron = () => (
       <div className="overlay"></div>
       <Container style= {{color: '#000'}}>
     
-        <h1>Welcome</h1>
-        <p>This is Dan's React site.</p>
+        <h1>Join Us</h1>
+        <p>In building a network of resources focusing on <br></br>
+          housing and employment for former offendors. 
+          {/* that <br></br>
+          have changed their lives around and deserve an opp-<br></br> 
+          ortunity to move on with their lives. */}
+        </p>
       </Container>
     </Jumbo>
   </Styles>
