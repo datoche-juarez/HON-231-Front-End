@@ -2,7 +2,7 @@ import React from 'react';
 
 export const Home = () =>  (
         <div>
-            <h1>Home Page:</h1>
+            <h1>Home:</h1>
             <p>
     Should everyone with a criminal record really be serving a life sentence?
     Does the punishment ever end? Does it discourage crime and make us safer,
