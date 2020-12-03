@@ -6,14 +6,16 @@ const styleh2 = {color: '#FF6347'};
 export const Contact = () =>  (
         <div>
             <h2 style= {styleh2}>Contact Us</h2>
-            <h3>Phone:</h3>
+            <h4>Phone:</h4>
             <p>313-675-2860</p>
-            <h3>Email:</h3>
+            <h4>Email:</h4>
             <a href="mailto: datoche-juarez@hawkmail.hfcc.edu">datoche-juarez@hawkmail.hfcc.edu</a>
-            <p>datoche-juarez@hawkmail.hfcc.edu</p>
-            <h3>Facebook:</h3>
+                <p></p>
+            <h4>Facebook:</h4>
             <a href="https://www.facebook.com/daniel.atochejuarez/">Daniel Atoche-Juarez</a>
-            <p>https://www.facebook.com/daniel.atochejuarez/</p>
+                <p></p>
+            <h4>Join Us</h4>
+                <p></p>
             <p>The Way Forward Project is only as good as its partners. If you believe our current criminal
              justice system is broken and recognize the need to give millions of Americans the opportunity 
              to lead productive healthy lives, please consider becoming one of our first partners. In the 
