@@ -31,6 +31,6 @@ export const Contact = () =>  (
             <p>If you believe there is a better, smarter, more humane, and compassionate way forward, please 
              fill out our contact form and become a part of the solution. Upon completion of our form, we will 
              send you confirmation that we received your contact information. If you at any time would like to 
-             change or remove your organization&rsquo;s data, please contact us.</p>
+             change or remove your organization&rsquo;s data, please contact us.</p>        
         </div>
     )
