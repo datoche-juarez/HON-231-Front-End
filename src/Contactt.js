@@ -27,7 +27,7 @@ const submitForm = () => {
       },	
       headers	
     )	
-    .then((res) => {	
+    .then((_res) => {	
       document.getElementById("success_alert").style.display = "block";	
       document.getElementById("error_alert").style.display = "none";	
       document.getElementById('submitFormBtn').disabled = false;	

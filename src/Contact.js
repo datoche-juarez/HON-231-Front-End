@@ -3,6 +3,7 @@ import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
+
 import axios from "axios";
 
 const submitForm = () => {
@@ -12,6 +13,7 @@ const submitForm = () => {
       "Content-Type": "application/json",
     },
   };
+
   axios
     .post(
       "https://ovetc22hoh.execute-api.us-east-2.amazonaws.com/dev/contact",
@@ -95,7 +97,6 @@ const Contact = () => (
           value="Submit"
           variant="info"
           id="submitFormBtn"
-
         />{" "}
       </Form>
     </Container>
@@ -121,7 +122,7 @@ const Contact = () => (
              fill out our contact form and become a part of the solution. Upon completion of our form, we will 
              send you confirmation that we received your contact information. If you at any time would like to 
              change or remove your organization&rsquo;s data, please contact us.</p>
-             <contactForm />        
+             <contactForm />   
   </div>
 );
 export default Contact;
