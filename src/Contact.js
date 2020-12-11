@@ -40,8 +40,8 @@ const submitForm = () => {
 };
 const Contact = () => (
   <div className="container p-3 my-3 light text-black">
-    <Container className="justify-content-lg-left">
-      <h1 className="text-left" >Contact Us</h1>
+    <Container className="justify-content-lg-center">
+      <h1 className="text-center" >Contact Us</h1>
       <br />
       <Form>
         <Form.Row>
@@ -95,7 +95,7 @@ const Contact = () => (
           value="Submit"
           variant="info"
           id="submitFormBtn"
-          style= {{ backgroundColor: "#FF6347", borderColor: "black" }}
+
         />{" "}
       </Form>
     </Container>
@@ -121,7 +121,7 @@ const Contact = () => (
              fill out our contact form and become a part of the solution. Upon completion of our form, we will 
              send you confirmation that we received your contact information. If you at any time would like to 
              change or remove your organization&rsquo;s data, please contact us.</p>
-            <contactForm />        
+             <contactForm />        
   </div>
 );
 export default Contact;
