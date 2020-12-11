@@ -100,7 +100,7 @@ const Contact = () => (
         />{" "}
       </Form>
     </Container>
-    <br></br>
+  {/* <br></br>
     <br></br>
             <h4>Join Us</h4>
                 <p></p>
@@ -122,7 +122,10 @@ const Contact = () => (
              fill out our contact form and become a part of the solution. Upon completion of our form, we will 
              send you confirmation that we received your contact information. If you at any time would like to 
              change or remove your organization&rsquo;s data, please contact us.</p>
-             <contactForm />   
+             <contactForm />    */}
   </div>
 );
+
 export default Contact;
+
+  
